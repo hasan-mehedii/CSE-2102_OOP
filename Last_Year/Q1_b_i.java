@@ -5,8 +5,6 @@
 // facility, but does not provide any interest. The SavingsAccount does not provide any
 // chequebook but provides yearly interest.
 
-import java.util.*;
-
 class Account{
     int accountNumber;
     String name;
@@ -51,12 +49,6 @@ class SavingsAccount extends Account{
 
 public class Q1_b_i{
     public static void main(String[] args){
-        Scanner scanner = new Scanner(System.in);
-        CurrentAccount ca = new CurrentAccount(1001, "John Doe", 5000.0, 10);
-        SavingsAccount sa = new SavingsAccount(1002, "Jane Doe", 7000.0, 4.5);
-
-        System.out.println(ca);
-        System.out.println(sa);
-        scanner.close();
+       System.out.println("This is Question 1, b, (i) ");
     }
 }
